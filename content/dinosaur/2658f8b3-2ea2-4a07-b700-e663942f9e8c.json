@@ -1,0 +1,66 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/example.com\/admin\/dinosaur\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/dinosaur\/dinosaur"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/dinosaur\/dinosaur\/user_id": [
+            {
+                "href": "http:\/\/example.com\/user\/1?_format=hal_json",
+                "lang": "und"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "2658f8b3-2ea2-4a07-b700-e663942f9e8c"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/dinosaur\/dinosaur\/user_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/example.com\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b95f8a5c-04eb-4d54-ac06-6c786128774b"
+                    }
+                ],
+                "lang": "und"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Pterodactyl"
+        }
+    ],
+    "description": [
+        {
+            "value": "The Pterodactyl can fly!"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "created": [
+        {
+            "value": "1444657791"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1444657791"
+        }
+    ]
+}

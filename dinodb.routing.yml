@@ -1,0 +1,62 @@
+
+# Dinosaur routing definition
+entity.dinosaur.canonical:
+  path: '/admin/dinosaur/{dinosaur}'
+  defaults:
+    _entity_view: 'dinosaur'
+    _title: 'Dinosaur'
+  requirements:
+    _entity_access: 'dinosaur.view'
+  options:
+    _admin_route: TRUE
+
+entity.dinosaur.collection:
+  path: '/admin/dinosaur'
+  defaults:
+    _entity_list: 'dinosaur'
+    _title: 'Dinosaur list'
+  requirements:
+    _permission: 'view dinosaur entities'
+  options:
+    _admin_route: TRUE
+
+entity.dinosaur.add_form:
+  path: '/admin/dinosaur/add'
+  defaults:
+    _entity_form: dinosaur.add
+    _title: 'Add Dinosaur'
+  requirements:
+    _permission: 'add dinosaur entities'
+  options:
+    _admin_route: TRUE
+
+entity.dinosaur.edit_form:
+  path: '/admin/dinosaur/{dinosaur}/edit'
+  defaults:
+    _entity_form: dinosaur.edit
+    _title: 'Edit Dinosaur'
+  requirements:
+    _permission: 'edit dinosaur entities'
+  options:
+    _admin_route: TRUE
+
+entity.dinosaur.delete_form:
+  path: '/admin/dinosaur/{dinosaur}/delete'
+  defaults:
+    _entity_form: dinosaur.delete
+    _title: 'Delete Dinosaur'
+  requirements:
+    _permission: 'delete dinosaur entities'
+  options:
+    _admin_route: TRUE
+
+dinosaur.settings:
+  path: 'admin/structure/dinosaur'
+  defaults:
+   _form: '\Drupal\dinodb\Entity\Form\DinosaurSettingsForm'
+   _title: 'Dinosaur settings'
+  requirements:
+    _permission: 'administer dinosaur entities'
+  options:
+    _admin_route: TRUE
+

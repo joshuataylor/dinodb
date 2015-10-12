@@ -1,0 +1,12 @@
+# Dinosaur menu items definition
+entity.dinosaur.collection:
+  title: 'Dinosaur list'
+  route_name: entity.dinosaur.collection
+  description: 'List Dinosaur entities'
+
+dinosaur.admin.structure.settings:
+  title: Dinosaur settings
+  description: 'Configure Dinosaur entities'
+  route_name: dinosaur.settings
+  parent: system.admin_structure
+

@@ -1,0 +1,7 @@
+entity.dinosaur.add_form:
+  route_name: entity.dinosaur.add_form
+  title: 'Add Dinosaur'
+  appears_on:
+    - entity.dinosaur.collection
+    - entity.dinosaur.canonical
+

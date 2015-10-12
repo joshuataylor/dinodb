@@ -1,0 +1,22 @@
+# Dinosaur routing definition
+dinosaur.settings_tab:
+  route_name: dinosaur.settings
+  title: 'Settings'
+  base_route: dinosaur.settings
+
+entity.dinosaur.canonical:
+  route_name: entity.dinosaur.canonical
+  base_route: entity.dinosaur.canonical
+  title: 'View'
+
+entity.dinosaur.edit_form:
+  route_name: entity.dinosaur.edit_form
+  base_route: entity.dinosaur.canonical
+  title: Edit
+
+entity.dinosaur.delete_form:
+  route_name:  entity.dinosaur.delete_form
+  base_route:  entity.dinosaur.canonical
+  title: Delete
+  weight: 10
+

@@ -1,0 +1,66 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/example.com\/admin\/dinosaur\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/dinosaur\/dinosaur"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/dinosaur\/dinosaur\/user_id": [
+            {
+                "href": "http:\/\/example.com\/user\/1?_format=hal_json",
+                "lang": "und"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "fd4e050e-e50a-4b42-ae5f-95fd44c01d80"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/dinosaur\/dinosaur\/user_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/example.com\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b95f8a5c-04eb-4d54-ac06-6c786128774b"
+                    }
+                ],
+                "lang": "und"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Tyrannosaurus"
+        }
+    ],
+    "description": [
+        {
+            "value": "Lorem ipsum dolor sit."
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "created": [
+        {
+            "value": "1444657722"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1444657722"
+        }
+    ]
+}

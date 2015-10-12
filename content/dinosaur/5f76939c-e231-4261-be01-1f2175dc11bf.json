@@ -1,0 +1,66 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/example.com\/admin\/dinosaur\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/dinosaur\/dinosaur"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/dinosaur\/dinosaur\/user_id": [
+            {
+                "href": "http:\/\/example.com\/user\/1?_format=hal_json",
+                "lang": "und"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "5f76939c-e231-4261-be01-1f2175dc11bf"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/dinosaur\/dinosaur\/user_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/example.com\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b95f8a5c-04eb-4d54-ac06-6c786128774b"
+                    }
+                ],
+                "lang": "und"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Triceratops"
+        }
+    ],
+    "description": [
+        {
+            "value": "Triceratops are big."
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "created": [
+        {
+            "value": "1444657742"
+        }
+    ],
+    "changed": [
+        {
+            "value": "1444657742"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+add dinosaur entities:
+  title: 'Create new Dinosaur entities'
+
+administer dinosaur entities:
+  title: 'Administer Dinosaur entities'
+  description: 'Allow to access the administration form to configure Dinosaur entities.'
+
+delete dinosaur entities:
+  title: 'Delete Dinosaur entities'
+
+edit dinosaur entities:
+  title: 'Edit Dinosaur entities'
+
+view dinosaur entities:
+  title: 'View Dinosaur entities'
